@@ -15,7 +15,8 @@ int main(int argc, const char * argv[])
 	{
 		printf("Incorrect arguments!\n");
 		printf("[1file] [operation] [2file] [3file] [-b| 4 file] [4file]\n");
-		printf("4 file is needed for the degree!\n");		
+		printf("4 file is needed for the degree!\n");
+		return 0;
 	}
 		
 	if (argc == 5)
